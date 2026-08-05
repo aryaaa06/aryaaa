@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Kelompok & Sekolah</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 25px 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            color: #007bff;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        /* Tabel Biodata Anggota */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+
+        /* Tombol Menuju Galeri */
+        .btn-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .btn-galeri {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: background 0.3s;
+        }
+
+        .btn-galeri:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 13px;
+            color: #777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>Website Kelas & Kelompok Kami</h1>
+            <p>Informasi Sekolah, Kelas, dan Anggota Kelompok</p>
+        </header>
+
+        <!-- 1. Profil Sekolah -->
+        <div class="card">
+            <h2>🏫 Profil Sekolah</h2>
+            <p><strong>Nama Sekolah:</strong> SMA Negeri 10 Depok</p>
+            <p><strong>Alamat:</strong> Jl.curug, Bojongsari</p>
+            
+        </div>
+
+        <!-- 2. Profil Kelas -->
+        <div class="card">
+            <h2>📚 Profil Kelas</h2>
+            <p><strong>Kelas:</strong> XII.3</p>
+            <p><strong>Wali Kelas:</strong> Bu Atikah</p>
+            
+        </div>
+
+        <!-- 3. Biodata & Hobi Anggota Kelompok -->
+        <div class="card">
+            <h2>👥 Biodata & Hobi Anggota</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Lengkap</th>
+                        <th>Hobi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Arya</td>
+                        <td>Membaca & Coding</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Siti Rahmawati</td>
+                        <td>Melukis</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Budi Pratama</td>
+                        <td>Bermain Musik</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tombol Masuk ke Halaman Galeri -->
+        <div class="btn-container">
+            <a href="galeri.html" class="btn-galeri">🖼️ Lihat Galeri Kegiatan</a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Dibuat oleh Kelompok Kami.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
